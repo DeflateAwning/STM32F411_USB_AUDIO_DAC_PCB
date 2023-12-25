@@ -10,7 +10,8 @@ Soldering this project may be difficult; take a look at the perfboard option usi
 ## Bill of Materials (BOM)
 
 * STM32F401CCU6 or STM32F411CEU6 <!-- FIXME: decide on one >
-* PCM5102A
+* PCM5102A ([PCM5102APW](https://www.digikey.ca/en/products/detail/texas-instruments/PCM5102APW/3902495))
+    * [Datasheet](https://www.ti.com/lit/ds/symlink/pcm5102a.pdf)
 * USB-C female port
 * Headphone jack
 
@@ -25,3 +26,7 @@ Soldering this project may be difficult; take a look at the perfboard option usi
 This hardware project (PCB and enclosure) is licensed under the [CERN Open Hardware Licence Version 2 - Permissive](https://choosealicense.com/licenses/cern-ohl-p-2.0/) licence:
 
 > A permissive license for hardware designs, with conditions only requiring preservation of notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without sources.
+
+## Alternatives
+* The [original project, on a perfboard]().
+* This [list on Hackaday](https://hackaday.io/list/166971-odfas-dacs) has pretty good suggestions

@@ -326,6 +326,14 @@
     [
       "c2a919d7-4260-41a9-9bc5-9737c1b4d769",
       ""
+    ],
+    [
+      "b77d31d3-d267-4ae4-806f-e210a5dd1f2c",
+      "microcontroller_sheet"
+    ],
+    [
+      "0d9874eb-1d6a-4e96-92eb-7b248f8c9096",
+      "dac_sheet"
     ]
   ],
   "text_variables": {}
