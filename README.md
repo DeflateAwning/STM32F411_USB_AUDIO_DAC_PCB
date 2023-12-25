@@ -10,6 +10,7 @@ Soldering this project may be difficult; take a look at the perfboard option usi
 ## Bill of Materials (BOM)
 
 * STM32F401CCU6 or STM32F411CEU6 <!-- FIXME: decide on one >
+    * [Blackpill Schematic](https://stm32-base.org/assets/pdf/boards/original-schematic-STM32F411CEU6_WeAct_Black_Pill_V2.0.pdf)
 * PCM5102A ([PCM5102APW](https://www.digikey.ca/en/products/detail/texas-instruments/PCM5102APW/3902495))
     * [Datasheet](https://www.ti.com/lit/ds/symlink/pcm5102a.pdf)
 * USB-C female port
