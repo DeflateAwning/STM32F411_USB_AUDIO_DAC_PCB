@@ -17,7 +17,7 @@ Soldering this project may be difficult; take a look at the perfboard option usi
 * Headphone jack
 
 ### Passives
-1206 parts are used for this project. Yes, I can solder 0805, 0603, and 0402 parts. But I can solder 1206 parts perfectly 100% of the time with no assistive tools, so that's what I use.
+0603 (Metric 1608) parts are used for this project. 1206 (Metric 3216) 10uF capacitors (tantalum) are used.
 
 * Resistors
 * Capacitors
@@ -29,5 +29,5 @@ This hardware project (PCB and enclosure) is licensed under the [CERN Open Hardw
 > A permissive license for hardware designs, with conditions only requiring preservation of notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without sources.
 
 ## Alternatives
-* The [original project, on a perfboard]().
+* The [original project, on a perfboard](https://github.com/har-in-air/STM32F411_USB_AUDIO_DAC).
 * This [list on Hackaday](https://hackaday.io/list/166971-odfas-dacs) has pretty good suggestions
