@@ -4,6 +4,11 @@
 
   (paper "USLetter")
 
+  (title_block
+    (date "2024-01-01")
+    (rev "Rev1")
+  )
+
   (lib_symbols
     (symbol "Connector:USB_C_Receptacle_USB2.0" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -10.16 19.05 0)
