@@ -1177,6 +1177,7 @@
     (at 156.25 98.5 90)
     (descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
     (tags "usb usb-c 2.0 pd")
+    (property "LCSC" "C165948")
     (property "Sheetfile" "microcontroller_sheet.kicad_sch")
     (property "Sheetname" "microcontroller_sheet")
     (property "ki_description" "USB 2.0-only Type-C Receptacle connector")
