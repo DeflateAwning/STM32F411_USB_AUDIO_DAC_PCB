@@ -2422,6 +2422,7 @@
     (at 116.025 92.1375 90)
     (descr "TSSOP, 20 Pin (JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "TSSOP SO")
+    (property "LCSC" "C107671")
     (property "Sheetfile" "dac_sheet.kicad_sch")
     (property "Sheetname" "dac_sheet")
     (property "ki_description" "2.1 VRMS, 112dB Audio Stereo DAC with PLL and 32-bit, 384kHz PCM Interface, TSSOP-20")
