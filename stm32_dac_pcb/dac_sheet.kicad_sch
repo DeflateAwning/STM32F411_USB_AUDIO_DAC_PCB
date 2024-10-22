@@ -2100,6 +2100,26 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 153.67) (xy 151.13 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb09b32-c64b-4665-b161-fe519e1c0fe4")
+	)
+	(wire
+		(pts
+			(xy 151.13 142.24) (xy 151.13 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d313c3d-f5f1-4d4a-bf5b-eb99cb0c08d8")
+	)
+	(wire
+		(pts
 			(xy 135.89 114.3) (xy 135.89 115.57)
 		)
 		(stroke
@@ -2531,6 +2551,18 @@
 		(uuid 120862ac-44d9-4fbf-8679-4025f0000c1d)
 	)
 	(rectangle
+		(start 142.24 134.62)
+		(end 162.56 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 31ad4a10-2099-44d2-84d9-d8259b60be88)
+	)
+	(rectangle
 		(start 194.31 134.62)
 		(end 224.79 165.1)
 		(stroke
@@ -2555,7 +2587,7 @@
 		(uuid 955d6f57-8940-478b-94b7-68f2703ca7e9)
 	)
 	(rectangle
-		(start 160.02 128.27)
+		(start 139.7 128.27)
 		(end 228.6 167.64)
 		(stroke
 			(width 0)
@@ -2568,7 +2600,7 @@
 	)
 	(rectangle
 		(start 57.15 132.08)
-		(end 85.09 162.56)
+		(end 87.63 162.56)
 		(stroke
 			(width 0)
 			(type default)
@@ -2601,6 +2633,17 @@
 			(type none)
 		)
 		(uuid d215bc6b-7e1b-4ba6-b45a-553d898cb48a)
+	)
+	(text "Place Anywhere"
+		(exclude_from_sim no)
+		(at 144.272 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05684a75-c312-4f8e-b2f1-f73b7b1d9c80")
 	)
 	(text "Place by AGND/AVDD Pins"
 		(exclude_from_sim no)
@@ -4137,6 +4180,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 151.13 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "981bbfbb-e10a-45e5-a9e5-ca8dae301256")
+		(property "Reference" "#PWR0317"
+			(at 151.13 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 151.13 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2f09cdf-e895-4bd6-a4f2-84b1653972fb")
+		)
+		(instances
+			(project "stm32_dac_pcb"
+				(path "/c2a919d7-4260-41a9-9bc5-9737c1b4d769/0d9874eb-1d6a-4e96-92eb-7b248f8c9096"
+					(reference "#PWR0317")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 212.09 149.86 0)
 		(unit 1)
@@ -4209,6 +4317,84 @@
 			(project "stm32_dac_pcb"
 				(path "/c2a919d7-4260-41a9-9bc5-9737c1b4d769/0d9874eb-1d6a-4e96-92eb-7b248f8c9096"
 					(reference "C308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 151.13 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b972a8c-7d42-4639-99b0-71956e8b1dd5")
+		(property "Reference" "C313"
+			(at 153.67 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 153.67 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_project_fp_lib:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder_Polar"
+			(at 152.0952 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1954161"
+			(at 151.13 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54f92bfa-f221-4576-bb4f-836d30ff3fd8")
+		)
+		(pin "2"
+			(uuid "6847ac7e-0567-4d35-a569-5908dca1c8e1")
+		)
+		(instances
+			(project "stm32_dac_pcb"
+				(path "/c2a919d7-4260-41a9-9bc5-9737c1b4d769/0d9874eb-1d6a-4e96-92eb-7b248f8c9096"
+					(reference "C313")
 					(unit 1)
 				)
 			)
@@ -4412,6 +4598,71 @@
 			(project "stm32_dac_pcb"
 				(path "/c2a919d7-4260-41a9-9bc5-9737c1b4d769/0d9874eb-1d6a-4e96-92eb-7b248f8c9096"
 					(reference "C311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 81.28 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3736a5a-1ffe-4d7b-909b-bf015edf36e6")
+		(property "Reference" "#PWR01"
+			(at 81.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 81.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9571337c-163a-4292-8e80-faf197783e13")
+		)
+		(instances
+			(project "stm32_dac_pcb"
+				(path "/c2a919d7-4260-41a9-9bc5-9737c1b4d769/0d9874eb-1d6a-4e96-92eb-7b248f8c9096"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4953,6 +5204,71 @@
 			(project "stm32_dac_pcb"
 				(path "/c2a919d7-4260-41a9-9bc5-9737c1b4d769/0d9874eb-1d6a-4e96-92eb-7b248f8c9096"
 					(reference "#PWR0314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 151.13 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "feabe76e-ec67-42a6-b6e2-3b712776e3ae")
+		(property "Reference" "#PWR0315"
+			(at 151.13 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 151.13 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80b4d5b7-2e5d-4aeb-9836-96fe3d987b3a")
+		)
+		(instances
+			(project "stm32_dac_pcb"
+				(path "/c2a919d7-4260-41a9-9bc5-9737c1b4d769/0d9874eb-1d6a-4e96-92eb-7b248f8c9096"
+					(reference "#PWR0315")
 					(unit 1)
 				)
 			)

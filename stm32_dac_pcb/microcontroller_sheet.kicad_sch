@@ -3260,7 +3260,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 52.07) (xy 82.55 52.07)
+			(xy 86.36 59.69) (xy 82.55 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3350,7 +3350,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 67.31) (xy 81.28 66.04)
+			(xy 82.55 68.58) (xy 82.55 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3610,7 +3610,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 52.07) (xy 82.55 66.04)
+			(xy 82.55 59.69) (xy 82.55 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3630,7 +3630,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 52.07) (xy 97.79 52.07)
+			(xy 93.98 59.69) (xy 97.79 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3690,7 +3690,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 66.04) (xy 97.79 66.04)
+			(xy 93.98 66.04) (xy 97.79 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3900,7 +3900,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 52.07) (xy 97.79 66.04)
+			(xy 97.79 59.69) (xy 97.79 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4040,7 +4040,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 66.04) (xy 85.09 66.04)
+			(xy 82.55 66.04) (xy 86.36 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4220,16 +4220,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 66.04) (xy 82.55 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5995288-7eff-4dd8-85d4-00a8e4e02123")
-	)
-	(wire
-		(pts
 			(xy 228.6 33.02) (xy 242.57 33.02)
 		)
 		(stroke
@@ -4341,17 +4331,6 @@
 		)
 		(uuid "51309f96-b237-4806-baf7-fa68b79c642e")
 	)
-	(text "FIXME: appears BOOT0 should be pulled\nLOW, with switch to HIGH.\n\nOn Rev1, may need to replace SW with 10k."
-		(exclude_from_sim no)
-		(at 63.5 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "51b64f3f-b806-4e8d-a80c-a70d92106b11")
-	)
 	(text "Chosen Connector:\n  LCSC C165948\n\n\nAlt Option:\n  USB: LCSC C2686966\n  G-Switch GT-USB-7029DB\n"
 		(exclude_from_sim no)
 		(at 41.91 190.5 0)
@@ -4450,17 +4429,6 @@
 			(justify left bottom)
 		)
 		(uuid "f232dd03-46b3-4c5e-87f5-5aaa94ee1072")
-	)
-	(text "BOOT0 SWITCH"
-		(exclude_from_sim no)
-		(at 97.79 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fb9267ec-c8e2-40e8-8b44-ef1ad10155ee")
 	)
 	(label "USB_DN"
 		(at 58.42 152.4 180)
@@ -4817,6 +4785,74 @@
 			(project "stm32_dac_pcb"
 				(path "/c2a919d7-4260-41a9-9bc5-9737c1b4d769/b77d31d3-d267-4ae4-806f-e210a5dd1f2c"
 					(reference "R202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 90.17 66.04 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fa5af96-91d2-4cbd-a3e5-389a044b7d3d")
+		(property "Reference" "R206"
+			(at 90.17 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 90.17 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 90.17 64.262 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a83dd5cb-d006-4e52-aeda-64118a7fb4db")
+		)
+		(pin "2"
+			(uuid "d7bc95c3-f8f5-4778-9420-285305b53951")
+		)
+		(instances
+			(project "stm32_dac_pcb"
+				(path "/c2a919d7-4260-41a9-9bc5-9737c1b4d769/b77d31d3-d267-4ae4-806f-e210a5dd1f2c"
+					(reference "R206")
 					(unit 1)
 				)
 			)
@@ -5321,7 +5357,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 90.17 52.07 90)
+		(at 90.17 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5329,7 +5365,7 @@
 		(dnp no)
 		(uuid "2c7d02ff-e63b-41d5-be62-5d87764c16fa")
 		(property "Reference" "C202"
-			(at 90.17 45.72 90)
+			(at 90.17 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5373,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 90.17 48.26 90)
+			(at 90.17 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,7 +5381,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 93.98 51.1048 0)
+			(at 93.98 58.7248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,7 +5390,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 52.07 0)
+			(at 90.17 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5363,7 +5399,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 52.07 0)
+			(at 90.17 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,83 +5958,6 @@
 			(project "stm32_dac_pcb"
 				(path "/c2a919d7-4260-41a9-9bc5-9737c1b4d769/b77d31d3-d267-4ae4-806f-e210a5dd1f2c"
 					(reference "C207")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 90.17 66.04 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68c8b620-7e0d-4754-a0ad-38cb01fc301c")
-		(property "Reference" "SW203"
-			(at 90.17 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 90.17 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0_project_fp_lib:PushButtonSMD_2.93x3.9"
-			(at 90.17 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C18077675"
-			(at 90.17 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eb9871d4-72e0-493f-aab0-902d479c7fc8")
-		)
-		(pin "1"
-			(uuid "f8a44cf9-5d30-4639-a682-bdeef73df071")
-		)
-		(instances
-			(project "stm32_dac_pcb"
-				(path "/c2a919d7-4260-41a9-9bc5-9737c1b4d769/b77d31d3-d267-4ae4-806f-e210a5dd1f2c"
-					(reference "SW203")
 					(unit 1)
 				)
 			)
@@ -6691,7 +6650,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 67.31 0)
+		(at 82.55 68.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6700,7 +6659,7 @@
 		(dnp no)
 		(uuid "a553c729-c132-45c7-9dd6-d31b2105dc08")
 		(property "Reference" "#PWR0205"
-			(at 81.28 73.66 0)
+			(at 82.55 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6709,7 +6668,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 71.12 0)
+			(at 82.55 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6717,7 +6676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 67.31 0)
+			(at 82.55 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6726,7 +6685,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 67.31 0)
+			(at 82.55 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6735,7 +6694,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 67.31 0)
+			(at 82.55 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)

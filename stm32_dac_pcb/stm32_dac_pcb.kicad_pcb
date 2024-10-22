@@ -167,7 +167,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_project_fp_lib:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder_Polar"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -191,7 +191,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -215,7 +215,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/85fc8af3-abdf-4814-b34a-c54577155d10")
+		(sheetname "Root")
 		(sheetfile "stm32_dac_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -437,7 +439,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -461,7 +463,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -473,6 +475,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/b77d31d3-d267-4ae4-806f-e210a5dd1f2c/1400cfb0-5ec1-4f00-a3f3-a6b81d01df80")
 		(sheetname "microcontroller_sheet")
 		(sheetfile "microcontroller_sheet.kicad_sch")
@@ -646,7 +649,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -670,7 +673,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -682,6 +685,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0d9874eb-1d6a-4e96-92eb-7b248f8c9096/867cb8d4-46b2-4ec2-8317-3c410c6b13d1")
 		(sheetname "dac_sheet")
 		(sheetfile "dac_sheet.kicad_sch")
@@ -855,7 +859,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_project_fp_lib:3.5mmHeadphoneTRRS_THT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -879,7 +883,7 @@
 				)
 			)
 		)
-		(property "Description" "Audio Jack, 4 Poles (TRRS)"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -903,6 +907,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Jack*")
 		(path "/0d9874eb-1d6a-4e96-92eb-7b248f8c9096/2e693c48-4cab-4255-8bcc-7759b2a0bb41")
 		(sheetname "dac_sheet")
 		(sheetfile "dac_sheet.kicad_sch")
@@ -1082,7 +1087,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1106,7 +1111,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1118,6 +1123,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/b77d31d3-d267-4ae4-806f-e210a5dd1f2c/0f2b1519-432b-41d1-9016-e12dc5d3cbc3")
 		(sheetname "microcontroller_sheet")
 		(sheetfile "microcontroller_sheet.kicad_sch")
@@ -1291,7 +1297,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1315,7 +1321,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1327,6 +1333,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b77d31d3-d267-4ae4-806f-e210a5dd1f2c/fac51b85-4f70-47b7-9ae1-0a7fec2c470a")
 		(sheetname "microcontroller_sheet")
 		(sheetfile "microcontroller_sheet.kicad_sch")
@@ -1500,7 +1507,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1512,7 +1519,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.diodes.com/datasheets/AP1117.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1524,7 +1531,7 @@
 				)
 			)
 		)
-		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1548,7 +1555,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/39a712da-2ae1-4973-b149-d25500f8fde9")
+		(sheetname "Root")
 		(sheetfile "stm32_dac_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1769,7 +1778,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_project_fp_lib:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder_Polar"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1793,7 +1802,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1817,7 +1826,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/74032c9c-c067-450d-83ed-d8a8937f586f")
+		(sheetname "Root")
 		(sheetfile "stm32_dac_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2039,7 +2050,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2063,7 +2074,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2075,6 +2086,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0d9874eb-1d6a-4e96-92eb-7b248f8c9096/c3de7fe7-2964-48f6-b5a3-677e675b2f10")
 		(sheetname "dac_sheet")
 		(sheetfile "dac_sheet.kicad_sch")
@@ -2248,7 +2260,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2272,7 +2284,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2284,6 +2296,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/b77d31d3-d267-4ae4-806f-e210a5dd1f2c/795a0b08-0215-4c93-b5e1-bedc8d544359")
 		(sheetname "microcontroller_sheet")
 		(sheetfile "microcontroller_sheet.kicad_sch")
@@ -2457,7 +2470,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2481,7 +2494,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2493,6 +2506,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0d9874eb-1d6a-4e96-92eb-7b248f8c9096/aad2737b-5b3b-4c40-a49b-55585914b635")
 		(sheetname "dac_sheet")
 		(sheetfile "dac_sheet.kicad_sch")
@@ -2667,7 +2681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_project_fp_lib:PushButtonSMD_2.93x3.9"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2691,7 +2705,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2816,7 +2830,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_project_fp_lib:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder_Polar"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2840,7 +2854,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2864,6 +2878,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/0d9874eb-1d6a-4e96-92eb-7b248f8c9096/dc1d0045-4f76-4265-999b-fbb67dc0878d")
 		(sheetname "dac_sheet")
 		(sheetfile "dac_sheet.kicad_sch")
@@ -3087,7 +3102,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3111,7 +3126,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3123,6 +3138,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/0d9874eb-1d6a-4e96-92eb-7b248f8c9096/08c42f43-9297-4514-a02a-30ed8b3ebeb4")
 		(sheetname "dac_sheet")
 		(sheetfile "dac_sheet.kicad_sch")
@@ -3296,7 +3312,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3320,7 +3336,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3332,6 +3348,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b77d31d3-d267-4ae4-806f-e210a5dd1f2c/1d172342-ae43-498f-ba1a-df04b4947323")
 		(sheetname "microcontroller_sheet")
 		(sheetfile "microcontroller_sheet.kicad_sch")
@@ -3571,7 +3588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3583,7 +3600,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f411ce.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3595,7 +3612,7 @@
 				)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 100 MHz, 1.7-3.6V, 36 GPIO, UFQFPN48"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3619,6 +3636,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "QFN*1EP*7x7mm*P0.5mm*")
 		(path "/b77d31d3-d267-4ae4-806f-e210a5dd1f2c/1b511005-1bd3-4d3a-a6df-458834d23633")
 		(sheetname "microcontroller_sheet")
 		(sheetfile "microcontroller_sheet.kicad_sch")
@@ -4435,7 +4453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4447,7 +4465,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4459,7 +4477,7 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only Type-C Receptacle connector"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4483,6 +4501,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/b77d31d3-d267-4ae4-806f-e210a5dd1f2c/f0911727-6bf4-4302-aec9-753a664d5a53")
 		(sheetname "microcontroller_sheet")
 		(sheetfile "microcontroller_sheet.kicad_sch")
@@ -4849,7 +4868,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C307"
-			(at -3.8125 0.15 90)
+			(at -3.6125 0.25 -90)
 			(layer "F.SilkS")
 			(uuid "049625cc-185a-49c8-bd17-ddcb7d6e3ce5")
 			(effects
@@ -4870,7 +4889,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4894,7 +4913,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4906,6 +4925,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0d9874eb-1d6a-4e96-92eb-7b248f8c9096/565337b9-23b0-446e-b3c2-f5ac879fbedf")
 		(sheetname "dac_sheet")
 		(sheetfile "dac_sheet.kicad_sch")
@@ -5079,7 +5099,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5103,7 +5123,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5115,6 +5135,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b77d31d3-d267-4ae4-806f-e210a5dd1f2c/2eeae39d-cadf-4917-90a7-29f4a9801510")
 		(sheetname "microcontroller_sheet")
 		(sheetfile "microcontroller_sheet.kicad_sch")
@@ -5376,7 +5397,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_project_fp_lib:PushButtonSMD_2.93x3.9"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5400,7 +5421,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5524,7 +5545,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5548,7 +5569,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5560,6 +5581,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/b77d31d3-d267-4ae4-806f-e210a5dd1f2c/167fdda4-2662-4dd4-9f7a-249cd3d32a0f")
 		(sheetname "microcontroller_sheet")
 		(sheetfile "microcontroller_sheet.kicad_sch")
@@ -5733,7 +5755,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5757,7 +5779,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5769,6 +5791,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b77d31d3-d267-4ae4-806f-e210a5dd1f2c/7816ddca-ad69-4cec-bb55-5e39c3cdf2cd")
 		(sheetname "microcontroller_sheet")
 		(sheetfile "microcontroller_sheet.kicad_sch")
@@ -5914,6 +5937,280 @@
 			)
 		)
 	)
+	(footprint "0_project_fp_lib:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder_Polar"
+		(layer "F.Cu")
+		(uuid "79daf3b9-7a8e-4ef0-a286-d31301d53656")
+		(at 118.5 100.4375 -90)
+		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "capacitor handsolder")
+		(property "Reference" "C313"
+			(at 0 -1.85 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2821d85e-e0b6-4970-9bae-86c668e0059e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100u"
+			(at 0 1.85 90)
+			(layer "F.Fab")
+			(uuid "bdb4bc2c-d063-47b4-80a7-ef33a4f46a21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "0_project_fp_lib:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder_Polar"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc5bea74-cbd8-4773-9676-c6769d5a0c89")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45f66bb2-cf07-4205-a5de-3fac853fed0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11e7add0-b0b8-4cb2-9715-26307252b617")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1954161"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40a41c29-f211-4cd5-9929-7b259bc22c32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "CP_*")
+		(path "/0d9874eb-1d6a-4e96-92eb-7b248f8c9096/9b972a8c-7d42-4639-99b0-71956e8b1dd5")
+		(sheetname "dac_sheet")
+		(sheetfile "dac_sheet.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.711252 0.91)
+			(end 0.711252 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dcc96898-9ce1-4af0-8a39-1f9979c74df2")
+		)
+		(fp_line
+			(start -0.711252 -0.91)
+			(end 0.711252 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eb99bec6-8f6d-41b9-90e4-79bcb7ad77cf")
+		)
+		(fp_line
+			(start -2.48 1.15)
+			(end -2.48 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fb54fe1a-6656-4607-96d6-c6393ddd8d1d")
+		)
+		(fp_line
+			(start 2.48 1.15)
+			(end -2.48 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "be3641ba-6727-4771-93ba-37e3c8a3d7a9")
+		)
+		(fp_line
+			(start -2.48 -1.15)
+			(end 2.48 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1e275f2a-81ba-486b-ab26-2850985e44dd")
+		)
+		(fp_line
+			(start 2.48 -1.15)
+			(end 2.48 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6ac46096-8308-4283-905d-adac4593c810")
+		)
+		(fp_line
+			(start -1.6 0.8)
+			(end -1.6 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c2a9ec7b-c6a3-47b0-b6d6-34d06a363204")
+		)
+		(fp_line
+			(start 1.6 0.8)
+			(end -1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0fcd2cd8-d51d-4289-849c-0b15fd7a779c")
+		)
+		(fp_line
+			(start -1.6 -0.8)
+			(end 1.6 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eea806fb-0f09-4831-abc6-de67decb769e")
+		)
+		(fp_line
+			(start 1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8a3ed22f-5a01-4f3d-b41b-e1d5bc17fb93")
+		)
+		(fp_text user "+"
+			(at -2.6 -0.8 -90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0dfa21c3-1453-43f2-bc0a-a64cdd3fcef7")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "+"
+			(at -0.6 0 -90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "10a62430-343a-44fd-82e9-2c673a5722d2")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "-"
+			(at 1.8 -0.8 -90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "667d9543-0c97-4bd2-a444-0397566d0d23")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "-"
+			(at 0.6 0 -90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f4550001-8960-4f58-ba46-0f8a07c8af8a")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "9739bedc-8466-4ffb-a6a1-2a31d22dc4cc")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.5625 0 270)
+			(size 1.325 1.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.188679)
+			(net 2 "+3.3VA")
+			(pintype "passive")
+			(uuid "90dfd516-ac8d-4a0b-934b-a6343a7c491b")
+		)
+		(pad "2" smd roundrect
+			(at 1.5625 0 270)
+			(size 1.325 1.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.188679)
+			(net 3 "GND")
+			(pintype "passive")
+			(uuid "b3315101-a71b-4893-bee7-286d6ceb8e8c")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8b87123a-b864-474a-a3e3-a1dd8bdb65f5")
@@ -5942,7 +6239,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5966,7 +6263,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5978,6 +6275,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/b77d31d3-d267-4ae4-806f-e210a5dd1f2c/26631309-687a-4890-84f3-675c9f3baf7c")
 		(sheetname "microcontroller_sheet")
 		(sheetfile "microcontroller_sheet.kicad_sch")
@@ -6130,7 +6428,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C305"
-			(at 0.2125 7.2 0)
+			(at -1.1375 7 0)
 			(layer "F.SilkS")
 			(uuid "94670a89-d839-4e84-9193-e61517f2b87d")
 			(effects
@@ -6151,7 +6449,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6175,7 +6473,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6187,6 +6485,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0d9874eb-1d6a-4e96-92eb-7b248f8c9096/1f4ce64d-a32f-43fb-a269-a964cc56a5d9")
 		(sheetname "dac_sheet")
 		(sheetfile "dac_sheet.kicad_sch")
@@ -6361,7 +6660,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_project_fp_lib:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder_Polar"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6385,7 +6684,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6409,6 +6708,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/0d9874eb-1d6a-4e96-92eb-7b248f8c9096/97d3a852-dab8-48ec-b15f-9fdb6234409e")
 		(sheetname "dac_sheet")
 		(sheetfile "dac_sheet.kicad_sch")
@@ -6633,7 +6933,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_project_fp_lib:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder_Polar"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6657,7 +6957,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6681,6 +6981,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/0d9874eb-1d6a-4e96-92eb-7b248f8c9096/999ef425-2066-43a3-99fc-6a5771a73a6a")
 		(sheetname "dac_sheet")
 		(sheetfile "dac_sheet.kicad_sch")
@@ -6904,7 +7205,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6928,7 +7229,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6940,6 +7241,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b77d31d3-d267-4ae4-806f-e210a5dd1f2c/5550a802-506e-4dc2-9697-abfb3c18c7d3")
 		(sheetname "microcontroller_sheet")
 		(sheetfile "microcontroller_sheet.kicad_sch")
@@ -7113,7 +7415,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7137,7 +7439,7 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7149,7 +7451,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/a196d546-0caf-480f-9c85-158b26d0a9a4")
+		(sheetname "Root")
 		(sheetfile "stm32_dac_pcb.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -7376,7 +7680,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7400,7 +7704,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7412,7 +7716,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/e3718abc-e9dc-42fa-8afa-ff1c823236d9")
+		(sheetname "Root")
 		(sheetfile "stm32_dac_pcb.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -7484,7 +7790,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7508,7 +7814,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7520,6 +7826,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b77d31d3-d267-4ae4-806f-e210a5dd1f2c/8d65900e-46f2-47e1-adbb-f0dc1bb8b588")
 		(sheetname "microcontroller_sheet")
 		(sheetfile "microcontroller_sheet.kicad_sch")
@@ -7693,7 +8000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7717,7 +8024,7 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7729,7 +8036,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/ab1c4bda-bc00-469d-9e35-885db10e51a7")
+		(sheetname "Root")
 		(sheetfile "stm32_dac_pcb.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -7955,7 +8264,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7979,7 +8288,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7991,6 +8300,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0d9874eb-1d6a-4e96-92eb-7b248f8c9096/60818e13-4e6c-4a88-a8bd-4c510fe52889")
 		(sheetname "dac_sheet")
 		(sheetfile "dac_sheet.kicad_sch")
@@ -8165,7 +8475,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_project_fp_lib:PushButtonSMD_2.93x3.9"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8189,7 +8499,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8313,7 +8623,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -8337,7 +8647,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -8349,6 +8659,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b77d31d3-d267-4ae4-806f-e210a5dd1f2c/769d2fa5-8b45-48f5-bde2-f49fe99dc034")
 		(sheetname "microcontroller_sheet")
 		(sheetfile "microcontroller_sheet.kicad_sch")
@@ -8497,7 +8808,7 @@
 	(footprint "0_project_fp_lib:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder_Polar"
 		(layer "F.Cu")
 		(uuid "c34e7ae6-e93d-4bd4-b90e-97fae9783bca")
-		(at 116.25 100.4375 -90)
+		(at 115.75 100.4375 -90)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C306"
@@ -8523,7 +8834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_project_fp_lib:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder_Polar"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8547,7 +8858,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8571,6 +8882,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/0d9874eb-1d6a-4e96-92eb-7b248f8c9096/898a7fc1-73b2-4697-a587-2610b87af243")
 		(sheetname "dac_sheet")
 		(sheetfile "dac_sheet.kicad_sch")
@@ -8794,7 +9106,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8818,7 +9130,7 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8830,7 +9142,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/fad5b3c4-38e2-4311-964d-a0a3dcbc9955")
+		(sheetname "Root")
 		(sheetfile "stm32_dac_pcb.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -9056,7 +9370,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9080,7 +9394,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9092,6 +9406,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/0d9874eb-1d6a-4e96-92eb-7b248f8c9096/9eaf6c30-bb53-4b5b-9962-67e63292e94d")
 		(sheetname "dac_sheet")
 		(sheetfile "dac_sheet.kicad_sch")
@@ -9265,7 +9580,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9277,7 +9592,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/pcm5102a.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9289,7 +9604,7 @@
 				)
 			)
 		)
-		(property "Description" "2.1 VRMS, 112dB Audio Stereo DAC with PLL and 32-bit, 384kHz PCM Interface, TSSOP-20"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9313,6 +9628,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TSSOP*4.4x6.5mm*P0.65mm*")
 		(path "/0d9874eb-1d6a-4e96-92eb-7b248f8c9096/d3bc3786-4328-4152-a35a-e1e82e420cd9")
 		(sheetname "dac_sheet")
 		(sheetfile "dac_sheet.kicad_sch")
@@ -9699,7 +10015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_project_fp_lib:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder_Polar"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9723,7 +10039,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9747,7 +10063,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/d7f6c145-df67-4017-95c6-718bd803c7ec")
+		(sheetname "Root")
 		(sheetfile "stm32_dac_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9970,7 +10288,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_project_fp_lib:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder_Polar"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9994,7 +10312,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10018,7 +10336,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/06463457-37c8-42f6-bb4e-795445203bb9")
+		(sheetname "Root")
 		(sheetfile "stm32_dac_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10240,7 +10560,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10264,7 +10584,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10276,6 +10596,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b77d31d3-d267-4ae4-806f-e210a5dd1f2c/2c7d02ff-e63b-41d5-be62-5d87764c16fa")
 		(sheetname "microcontroller_sheet")
 		(sheetfile "microcontroller_sheet.kicad_sch")
@@ -10449,7 +10770,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10461,7 +10782,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.diodes.com/datasheets/AP1117.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10473,7 +10794,7 @@
 				)
 			)
 		)
-		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10497,7 +10818,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/cfea800c-dde9-40c5-8cdf-061a3dde27c8")
+		(sheetname "Root")
 		(sheetfile "stm32_dac_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10717,7 +11040,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10741,7 +11064,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10753,6 +11076,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0d9874eb-1d6a-4e96-92eb-7b248f8c9096/3b6d2e28-2a51-49ab-9036-75d752b61ba0")
 		(sheetname "dac_sheet")
 		(sheetfile "dac_sheet.kicad_sch")
@@ -10926,7 +11250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10950,7 +11274,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10962,6 +11286,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b77d31d3-d267-4ae4-806f-e210a5dd1f2c/59fda46f-d6db-4134-83e9-e84931f0e6cd")
 		(sheetname "microcontroller_sheet")
 		(sheetfile "microcontroller_sheet.kicad_sch")
@@ -11114,7 +11439,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C304"
-			(at 0.3875 -7.2 0)
+			(at 1.3875 -6.9 0)
 			(layer "F.SilkS")
 			(uuid "26bcc371-43af-488c-9c40-ea2c00e7db17")
 			(effects
@@ -11135,7 +11460,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11159,7 +11484,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11171,6 +11496,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0d9874eb-1d6a-4e96-92eb-7b248f8c9096/1ed64fba-c578-4063-9f04-ad6a1355bb5b")
 		(sheetname "dac_sheet")
 		(sheetfile "dac_sheet.kicad_sch")
@@ -11345,7 +11671,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11369,7 +11695,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11381,7 +11707,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/3848f729-c7dc-4624-9592-d5d7fa6e9f9f")
+		(sheetname "Root")
 		(sheetfile "stm32_dac_pcb.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -11552,6 +11880,18 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+		)
+	)
+	(gr_text "100u"
+		(at 117 100.75 0)
+		(layer "F.SilkS")
+		(uuid "eff14e71-09da-4122-8f08-33bcd1422dfd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "A"
