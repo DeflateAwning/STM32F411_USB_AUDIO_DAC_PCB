@@ -5,8 +5,8 @@
 	(uuid "f4de5940-a853-4226-b4d8-0410f48f70d7")
 	(paper "USLetter")
 	(title_block
-		(date "2024-01-01")
-		(rev "Rev1")
+		(date "2024-10-22")
+		(rev "Rev 2")
 	)
 	(lib_symbols
 		(symbol "Audio:PCM5102A"

@@ -5,8 +5,8 @@
 	(uuid "b5cc74f9-f99e-4266-b8bb-b2875f69c1ec")
 	(paper "USLetter")
 	(title_block
-		(date "2024-01-01")
-		(rev "Rev1")
+		(date "2024-10-22")
+		(rev "Rev 2")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0"

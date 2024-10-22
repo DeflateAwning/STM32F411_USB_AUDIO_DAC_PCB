@@ -5,8 +5,8 @@
 	(uuid "c2a919d7-4260-41a9-9bc5-9737c1b4d769")
 	(paper "USLetter")
 	(title_block
-		(date "2024-01-01")
-		(rev "Rev1")
+		(date "2024-10-22")
+		(rev "Rev 2")
 	)
 	(lib_symbols
 		(symbol "Device:C_Polarized"
